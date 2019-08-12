@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class HomeController {
+public class HomeController { // cia yra pavyzdzio dalis greetings dalyje??
 
     @RequestMapping("/")
     public @ResponseBody String greeting() {

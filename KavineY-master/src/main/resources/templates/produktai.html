@@ -12,7 +12,7 @@
 			}
 		</style>
 	    <script
-		interface		src="https://code.jquery.com/jquery-3.4.1.min.js"
+interface		src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 		crossorigin="anonymous">
 	    </script>
@@ -36,10 +36,10 @@
 															*/
 				}
 			)
-			.done( // ajax nuvaro i ta linka ir kai jis uzkrauna ta linka tada eina .done ir tada jau vykdo kitus darbus
+			.done(
 					function( data ) {
 					
-						patiekalai = data;  // patiekalai = data manau tai vienas is budu pasiimti duomenis
+						patiekalai = data;
 															// alert ( 'jquery ok ' + data );
 						res_str = '<select id="patiekalu_sel">'
 								+ '<option value="0">nepasirinkta</option>' 
